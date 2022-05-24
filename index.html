@@ -25052,7 +25052,7 @@ var seo03_gu = new google.maps.Polygon({ paths: seo03, strokeColor: "#000000", s
 var seo04_gu = new google.maps.Polygon({ paths: seo04, strokeColor: "#000000", strokeOpacity: 0.4, strokeWeigh: 3, fillColor: "#C8DCF0", fillOpacity: 0.8,}); seo04_gu.setMap(map); seo04_gu.addListener("click", dobi59); infoWindow = new google.maps.InfoWindow(); function dobi59(event) {let contentString ="<font size=4><b>서구</b><br></font size><br>" + "<b><font size=2>직주비: </b><br>" +"0.93<br>" +"<b>주간지수: </b><br>" +"93.7</font size>"; infoWindow.setContent(contentString); infoWindow.setPosition(event.latLng); infoWindow.open(map); }
 
   function originMap(){
-    Gangbuk_gu.setOptions({fillColor: "#F7FBFF"})
+Gangbuk_gu.setOptions({fillColor: "#F7FBFF"})
 Gwangjin_gu.setOptions({fillColor: "#DFECF7"})
 Nowon_gu.setOptions({fillColor: "#F7FBFF"})
 Dobong_gu.setOptions({fillColor: "#F7FBFF"})
